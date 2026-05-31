@@ -19,6 +19,7 @@ public class Question_13 {
         System.out.println(current);
 
     }
+    sc.close();
 
 
 }    
