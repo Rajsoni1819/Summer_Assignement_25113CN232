@@ -4,7 +4,7 @@ package Day_5;
 
 import java.util.Scanner;
 
-public class Question_20 {
+public class Question_17 {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
