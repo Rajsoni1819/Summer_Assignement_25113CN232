@@ -1,3 +1,4 @@
+//Strong number
 package Day_5;
 import java.util.Scanner;
 public class Question_18{
