@@ -1,4 +1,4 @@
-//Decimal to Binary
+//Binary to Decimal
 
 package Day_6;
 
