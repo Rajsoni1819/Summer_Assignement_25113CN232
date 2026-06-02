@@ -1,3 +1,5 @@
+// Decimal to Binary
+
 package Day_6;
 
 import java.util.Scanner;
