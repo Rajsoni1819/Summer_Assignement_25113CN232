@@ -1,17 +1,17 @@
-/* 
-1
-12
-123
-1234
-12345 
-*/ 
+/*
+A
+AB
+ABC
+ABCD
+ABCDE 
+*/
 
 package Day_8;
 
-public class Question_30 {
+public class Question_31 {
     public static void main(String[] args){
-        for(int i =1;i<=5;i++){
-            for(int j = 1;j<=i;j++){
+        for(char i ='A';i<='E';i++){
+            for(char j ='A';j<=i;j++){
                 System.out.print(j);
             }
             System.out.println();
