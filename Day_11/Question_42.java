@@ -1,36 +1,21 @@
-// Function to find Maximum
+//Function to find maximum Number :
 package Day_11;
 import java.util.*;
+
 public class Question_42 {
-    public static void main(String[]  args){
+    public static int max_(int p,int q){
+        int max=Math.max(p,q);
+        return max;
+    }
+    public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter 2 for comparison btw 2 numbers and 3 for 3 numbers");
-        int n = sc.nextInt();
-        if(n==2){
-            int a,b;
-            System.out.println("Enter first Number :");
-            a = sc.nextInt();
-            System.out.println("Enter Second Number :");
-            b = sc.nextInt();
-            int max2 = Math.max(a,b);
-            System.out.println("Maximum Number is "+max2);      
-        }
-        else if(n==3){
-            int c,d,e;
-            System.out.println("Enter first Number :");
-            c = sc.nextInt();
-            System.out.println("Enter Second Number :");
-            d = sc.nextInt();
-            System.out.println("Enter third number :");
-            e = sc.nextInt();
-            int max3=Math.max(c,Math.max(d,e));
-            System.out.println("Maximum Number is "+max3);
+        System.out.println("Enter first Number :");
+        int a = sc.nextInt();
+        System.out.println("Enter Second Number :");
+        int b = sc.nextInt();
+        System.out.println("Maximum number is "+max_(a,b));
 
-        }
-        else{
-            System.out.println("wrong Choice !! ");
-        }
-
+        
     }
     
 }
