@@ -1,7 +1,7 @@
 package Day_16;
 import java.util.Scanner;
 
-public class Question_62_Easy {
+public class Question_62 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         
