@@ -1,7 +1,7 @@
-// Add Matrices
+// Subtract Matrices
 package Day_19;
 import java.util.*;
-public class Question_73 {
+public class Question_74 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -29,8 +29,7 @@ public class Question_73 {
         }
         for(i=0;i<r2;i++){
             for(j=0;j<c2;j++){
-                System.out.print((arr1[i][j]+arr2[i][j])+" ");
-                
+                System.out.println(arr1[i][j]-arr2[i][j]+" ");
             }
             System.out.println();
         }
