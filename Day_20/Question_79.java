@@ -1,0 +1,32 @@
+package Day_20;
+import java.util.*;
+public class Question_79 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter number of rows:");
+        int r = sc.nextInt();
+        System.out.println("Enter number of columns:");
+        int c = sc.nextInt();
+        
+        int[][] arr = new int[r][c];
+
+        System.out.println("Enter elements of matrix:");
+        for(int i = 0; i < r; i++){
+            for(int j = 0; j < c; j++){
+                arr[i][j] = sc.nextInt();
+            }
+        }
+
+        System.out.println("Row wise sum:");
+        for(int i = 0; i < r; i++){
+            int rowSum = 0;
+            for(int j = 0; j < c; j++){
+                rowSum += arr[i][j];
+            }
+            System.out.println("Sum of Row " + (i + 1) + ": " + rowSum);
+        }
+        
+        sc.close();
+    }
+}   
