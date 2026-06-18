@@ -1,3 +1,4 @@
+// Count vowels and consonants
 package Day_21;
 
 import java.util.Scanner;

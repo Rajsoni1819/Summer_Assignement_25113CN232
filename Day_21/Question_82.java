@@ -1,3 +1,4 @@
+//Reverse the string
 package Day_21;
 
 import java.util.Scanner;
@@ -17,6 +18,6 @@ public class Question_82 {
 
         System.out.println("Reversed String = " + rev);
 
-        sc.close();
+        sc.close(); 
     }
 }
