@@ -1,3 +1,4 @@
+//Remove spaces from string
 package Day_22;
 
 import java.util.Scanner;

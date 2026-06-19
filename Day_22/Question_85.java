@@ -1,3 +1,4 @@
+//Check Palindrome
 package Day_22;
 import java.util.Scanner;
 
@@ -6,11 +7,11 @@ public class Question_85 {
     Scanner sc = new Scanner(System.in);
     System.out.print("Enter the String : ");
     String str = sc.nextLine();
-    String rev =" ";
-    for(int i = str.length()-1;i>0;i--){
+    String rev ="";
+    for(int i = str.length()-1;i>=0;i--){
         rev = rev+str.charAt(i);
     }
-    if(rev==str){
+    if(str.equals(rev)){
         System.out.println("palindrome");
     }
     else{
@@ -18,5 +19,6 @@ public class Question_85 {
     }
 
     
-}}
+}
+}
 
