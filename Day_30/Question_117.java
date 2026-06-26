@@ -4,7 +4,7 @@ package Day_30;
 
 import java.util.Scanner;
 
-public class Q117_StudentRecordSystem {
+public class Question_117 {
 
     public static void addStudent(String[] names, int[] marks, int index, Scanner sc) {
         System.out.print("Enter Student Name: ");
